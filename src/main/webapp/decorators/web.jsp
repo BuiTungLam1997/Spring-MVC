@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@include file="/common/taglib.jsp" %>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -14,9 +15,9 @@
   <meta name="author" content="" />
   <title>Small Business - Start Bootstrap Template</title>
   <!-- Favicon-->
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="/template/web/assets/favicon.ico" />
   <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="css/styles.css" rel="stylesheet" />
+  <link rel="stylesheet"  href="/template/web/css/styles.css">
 </head>
 <body>
 <%@include file="/common/web/header.jsp"%>
@@ -27,7 +28,7 @@
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Core theme JS-->
-<script src="js/scripts.js"></script>
+<script src="/template/web/js/scripts.js"></script>
 </body>
 </html>
 
